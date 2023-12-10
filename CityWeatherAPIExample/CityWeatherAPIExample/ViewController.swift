@@ -66,7 +66,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let city = cityValues[indexPath.row].city
         let temperature = cityValues[indexPath.row].temperature
-        cell.textLabel?.text = "City: \(city) Temperature: \(temperature)"
+        let conditions = cityValues[indexPath.row].conditions
+        cell.textLabel?.text = "City: \(city) Temperature: \(temperature) Conditions: \(conditions)"
         return cell
     }
 }
