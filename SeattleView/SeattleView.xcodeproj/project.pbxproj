@@ -13,6 +13,8 @@
 		613E3F772B2531CB0098F32B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613E3F752B2531CB0098F32B /* Main.storyboard */; };
 		613E3F792B2531CC0098F32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613E3F782B2531CC0098F32B /* Assets.xcassets */; };
 		613E3F7C2B2531CC0098F32B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613E3F7A2B2531CC0098F32B /* LaunchScreen.storyboard */; };
+		613E3F852B2534900098F32B /* SeattleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E3F832B2534900098F32B /* SeattleTableViewCell.swift */; };
+		613E3F862B2534900098F32B /* SeattleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 613E3F842B2534900098F32B /* SeattleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		613E3F782B2531CC0098F32B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		613E3F7B2B2531CC0098F32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		613E3F7D2B2531CC0098F32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613E3F832B2534900098F32B /* SeattleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeattleTableViewCell.swift; sourceTree = "<group>"; };
+		613E3F842B2534900098F32B /* SeattleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeattleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				613E3F782B2531CC0098F32B /* Assets.xcassets */,
 				613E3F7A2B2531CC0098F32B /* LaunchScreen.storyboard */,
 				613E3F7D2B2531CC0098F32B /* Info.plist */,
+				613E3F832B2534900098F32B /* SeattleTableViewCell.swift */,
+				613E3F842B2534900098F32B /* SeattleTableViewCell.xib */,
 			);
 			path = SeattleView;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				613E3F7C2B2531CC0098F32B /* LaunchScreen.storyboard in Resources */,
 				613E3F792B2531CC0098F32B /* Assets.xcassets in Resources */,
+				613E3F862B2534900098F32B /* SeattleTableViewCell.xib in Resources */,
 				613E3F772B2531CB0098F32B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				613E3F742B2531CB0098F32B /* ViewController.swift in Sources */,
 				613E3F702B2531CB0098F32B /* AppDelegate.swift in Sources */,
+				613E3F852B2534900098F32B /* SeattleTableViewCell.swift in Sources */,
 				613E3F722B2531CB0098F32B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
